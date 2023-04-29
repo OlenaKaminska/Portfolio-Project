@@ -50,6 +50,7 @@ p {
 }
 .hero {
   background-color: #f9f7fe;
+  padding-bottom: 50px;
 }
 .navigation-links {
   display: flex;
