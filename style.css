@@ -16,13 +16,13 @@ h3 {
 
 h1 {
   font-size: 96px;
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", serif;
   font-weight: bold;
 }
 
 h2 {
   font-size: 48px;
-  font-family: "Poppins", serif;
+  font-family: "Playfair Display", serif;
   font-weight: bold;
 }
 
