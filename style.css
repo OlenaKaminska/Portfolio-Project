@@ -43,9 +43,13 @@ p {
 @media (max-width: 600px) {
   p {
     font-size: 14px;
+    text-align: center;
   }
   img {
     max-width: fit-content;
+  }
+  h2 {
+    text-align: center;
   }
 }
 .hero {
