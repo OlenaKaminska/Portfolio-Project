@@ -42,49 +42,25 @@
   </head>
   <body>
     <div class="hero">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/" title="Homepage">Olena Kaminska</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="/"
-                  title="Homepage"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about.html" title="About Me"
-                  >About me</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/myworks.html" title="My Works"
-                  >My works</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/contact.html" title="Contact"
-                  >Contact me</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
+      <nav class="d-flex justify-content-between fixed-top">
+        <a href="/">
+          <img src="/images/logo.png" class="logo d-none d-md-block" />
+          <img src="/images/logo.jpg" class="logo d-block d-md-none" />
+        </a>
+        <ul>
+          <li class="active">
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Me">About me</a>
+          </li>
+          <li>
+            <a href="/myworks.html" title="My Works">My works</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact">Contact me</a>
+          </li>
+        </ul>
       </nav>
 
       <div class="greeting">
