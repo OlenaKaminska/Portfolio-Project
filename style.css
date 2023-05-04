@@ -165,3 +165,12 @@ nav li.active a {
   margin-top: 55px;
   padding-top: 50px;
 }
+.email-link {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+}
+.email-link:hover {
+  color: var(--branding-color);
+}
