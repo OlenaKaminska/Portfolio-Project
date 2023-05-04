@@ -182,7 +182,7 @@ footer.email-link:hover {
   color: var(--primary-color);
   text-decoration: none;
 }
-footer.social-links a {
+.social-links a {
   margin: 0 20px;
   color: var(--primary-color);
   background-color: var(--secondary-color);
@@ -191,11 +191,11 @@ footer.social-links a {
   border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
-footer.social-links a:hover {
+.social-links a:hover {
   color: white;
   background-color: var(--primary-color);
 }
-footer.contact-box {
+.contact-box {
   background-color: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 10 px;
