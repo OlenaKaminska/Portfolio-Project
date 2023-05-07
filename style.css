@@ -9,8 +9,7 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   text-align: center;
 }
 
@@ -130,6 +129,7 @@ nav li.active a {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  margin-bottom: 20px;
 }
 
 .email-link:hover {
@@ -195,4 +195,7 @@ footer .email-link:hover {
   background-color: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 10 px;
+}
+.contact-page {
+  padding-top: 50px;
 }

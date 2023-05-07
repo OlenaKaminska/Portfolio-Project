@@ -41,7 +41,11 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="/" title="Homepage"
+        <a
+          class="navbar-brand"
+          href="https://www.shecodes.io/"
+          target="_blank"
+          title="Homepage"
           ><img src="/images/logo.png" class="logo d-none d-md-block" />
           <img src="/images/logo.jpg" class="logo d-block d-md-none"
         /></a>
@@ -83,20 +87,107 @@
       </div>
     </nav>
 
-    <div class="container">
+    <div class="container contact-page">
       <h1 class="mt-5">Let's get in touch!</h1>
-      <h3>Email</h3>
-      <a href="mailto:a.kaminskaya12@gmail.com" class="text-center"
+      <div class="row mt-5">
+        <div class="col-7">
+          <div class="container">
+            <form
+              action="https://formspree.io/f/mwkalajy"
+              method="POST"
+              class="border rounded p-3"
+            >
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Your message</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+
+              <button type="submit" class="btn app-link">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-5">
+          <h3>Email</h3>
+          <a href="mailto:a.kaminskaya12@gmail.com">a.kaminskaya12@gmail.com</a>
+          <h3 class="mt-3">Facebook</h3>
+          <a href="https://www.facebook.com/alena.kaminskaya.5/"
+            >@alena.kaminskaya.5</a
+          >
+          <h3 class="mt-3">Instagram</h3>
+          <a href="https://www.instagram.com/@a.kaminskaya">@alena.kaminskaa</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-block"
+      >
+        <div>
+          <h2>Work Inquiry</h2>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div class="app-button mt-5 text-center">
+          <a
+            href="/contact.html"
+            target="_blank"
+            class="app-link"
+            title="Contact Button"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <a href="mailto:a.kaminskaya12@gmail.com" class="email-link"
         >a.kaminskaya12@gmail.com</a
       >
-      <h3>Twitter</h3>
-      <a href="https://www.twitter.com/@a.kaminskaya" class="text-center"
-        >@a.kaminskaya</a
-      >
-      <h3>Instagram</h3>
-      <a href="https://www.instagram.com/@a.kaminskaya" class="text-center"
-        >@a.kaminskaya</a
-      >
-    </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.instagram.com/alena.kaminskaa"
+          target="_blank"
+          title="Instagram Profile"
+          ><i class="fa fa-instagram" aria-hidden="true"></i
+        ></a>
+        <a
+          href="https://github.com/OlenaKaminska"
+          target="_blank"
+          title="GitHub Profile"
+          ><i class="fa fa-github" aria-hidden="true"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/alena.kaminskaya.5/"
+          target="_blank"
+          title="Facebook Profile"
+        >
+          <i class="fa fa-facebook" aria-hidden="true"></i
+        ></a>
+      </div>
+      <p class="text text-center mt-4">
+        This project was coded be Olena Kaminska, and it is
+        <a
+          href="https://github.com/OlenaKaminska/Portfolio-Project"
+          target="_blank"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
